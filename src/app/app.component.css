@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Pour éviter les barres de défilement */
+  width: 100%;
+}
+.container {
+  /* position: relative; */
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.top-left {
+  position: absolute;
+  top: 5;
+  left: 5;
+}
+
+.top-right {
+  position: absolute;
+  top: 5;
+  right: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 5;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
